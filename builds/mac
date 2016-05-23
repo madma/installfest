@@ -1056,10 +1056,10 @@ inform "Using Homebrew Cask to install GUI apps..." true
 
 # Our browser(s)
 # ----------------------------------------------------------------------
-brew cask install google-chrome
+#brew cask install google-chrome
 # brew cask install google-chrome-canary
 
-brew cask install firefox
+#brew cask install firefox
 # brew cask install firefox-nightly
 # ----------------------------------------------------------------------
 
