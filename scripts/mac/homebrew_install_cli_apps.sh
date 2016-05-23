@@ -36,6 +36,9 @@ packagelist=(
 
   # Directory visualizer
   tree
+
+  # Git visualization
+  tig
 )
 
 brew install ${packagelist[@]}

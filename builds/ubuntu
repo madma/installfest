@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
+<<<<<<< c4e3dc5069464e5dab0b263b59112ab1b6bb5f8e
 COMPILED_AT='Thu Jun 09 12:16:18 PDT 2016'
+=======
+COMPILED_AT='Fri Jun 10 22:04:48 EDT 2016'
+>>>>>>> Removed browser installation; students concerned about double installations;
 #
 #  _           _        _ _  __           _
 # (_)_ __  ___| |_ __ _| | |/ _| ___  ___| |_
@@ -394,6 +398,12 @@ git config --global push.default current
 
 # set global gitignore
 git config --global core.excludesfile ~/.gitignore_global
+
+# Turn off rerere
+git config --global rerere.enabled false
+
+# Turn off auto rebase if the user has somehow turned it on
+git config --global pull.rebase false
 
 # add commit template
 git config --global commit.template ~/.gitmessage.txt
