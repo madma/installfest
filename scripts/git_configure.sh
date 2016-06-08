@@ -30,6 +30,12 @@ git config --global push.default current
 # set global gitignore
 git config --global core.excludesfile ~/.gitignore_global
 
+# Turn off rerere
+git config --global rerere.enabled false
+
+# Turn off auto rebase if the user has
+git config --global pull.rebase false
+
 # add commit template
 git config --global commit.template ~/.gitmessage.txt
 
