@@ -93,3 +93,8 @@ tmp
 # CTags #
 #########
 tags
+
+# dotenv #
+##########
+.env
+

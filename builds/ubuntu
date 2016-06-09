@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COMPILED_AT='Mon Jan 18 17:33:33 PST 2016'
+COMPILED_AT='Thu Jun 09 12:16:18 PDT 2016'
 #
 #  _           _        _ _  __           _
 # (_)_ __  ___| |_ __ _| | |/ _| ___  ___| |_
@@ -399,7 +399,7 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global commit.template ~/.gitmessage.txt
 
 # add some useful shortcuts
-git config --global alias.s 'status -sb -uall'
+git config --global alias.s 'status'
 git config --global alias.sha 'rev-parse HEAD'
 git config --global alias.last 'log -1 HEAD --oneline --decorate'
 git config --global alias.ll 'log --oneline --decorate'
