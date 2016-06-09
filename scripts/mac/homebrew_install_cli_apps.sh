@@ -36,6 +36,18 @@ packagelist=(
 
   # Directory visualizer
   tree
+
+  # Git visualizer
+  tig
+
+  # OSX replacements (suggested…)
+  # bash
+  # Mac OS ships with bash 3.2
+  # http://www.admon.org/applications/new-features-in-bash-4-0/
+  # nano
+  # less
+  # rsync
+  # truncate
 )
 
 brew install ${packagelist[@]}
@@ -46,20 +58,14 @@ brew install ${packagelist[@]}
 # brew install macvim --override-system-vim --custom-system-icons
 
 # Others...
-# brew install bash
-# Mac OS ships with bash 3.2
-# http://www.admon.org/applications/new-features-in-bash-4-0/
 # brew install gdb
 # gdb requires further actions to make it work. See `brew info gdb`.
 # brew install gpatch
 # brew install m4
 # brew install make
-# brew install nano
 # brew install file-formula
 # brew install git
-# brew install less
 # brew install openssh
-# brew install rsync
 # brew install unzip
 # brew install zsh
 
