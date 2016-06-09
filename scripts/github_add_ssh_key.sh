@@ -22,7 +22,7 @@ function get_keys() {
         exit 0
       else
         puts
-        puts('No keys exist.")
+        puts('No keys exist.')
         exit 1
       end
     " -r JSON
