@@ -34,7 +34,7 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global commit.template ~/.gitmessage.txt
 
 # add some useful shortcuts
-git config --global alias.s 'status -sb -uall'
+git config --global alias.s 'status'
 git config --global alias.sha 'rev-parse HEAD'
 git config --global alias.last 'log -1 HEAD --oneline --decorate'
 git config --global alias.ll 'log --oneline --decorate'
