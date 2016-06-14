@@ -51,4 +51,5 @@ git config --global alias.set-deploy = "!git config --local alias.deploy \"subtr
 git config --global alias.co 'checkout'
 git config --global alias.bs 'branch -v'
 git config --global alias.rs 'remote -v'
+git config --global alias.ci 'commit'
 show "Complete!"
