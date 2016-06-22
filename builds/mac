@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COMPILED_AT='Tue Jun 14 19:52:25 EDT 2016'
+COMPILED_AT='Wed Jun 22 11:03:24 PDT 2016'
 #
 #  _           _        _ _  __           _
 # (_)_ __  ___| |_ __ _| | |/ _| ___  ___| |_
@@ -1051,36 +1051,42 @@ show "Complete!"
 
 # PJ: REMOVED THE BELOW, now that cask has been added to Homebrew
 # See https://github.com/caskroom/homebrew-cask/pull/15381
+
 # inform "Installing Homebrew Cask, to handle Mac binaries (apps)..." true
 # a CLI workflow for the administration of Mac applications
 # distributed as binaries
 # brew tap phinze/homebrew-cask
 # brew install brew-cask
 
+# PJ: Removed the below, now that it seems Sublime Text 3 is the default
+# package for Homebrew, and sublime-text3 no longer exists…
+
 # load a tap of different versions of apps (for Sublime Text 3)
-inform "Tapping Homebrew Cask's versions, for ST3..." true
-brew tap caskroom/versions
-show "Complete!"
+# inform "Tapping Homebrew Cask's versions, for ST3..." true
+# brew tap caskroom/versions
+# show "Complete!"
 
 inform "Using Homebrew Cask to install GUI apps..." true
 
+# PJ: removed b/c too many students were afraid of having double
+# installs. Added note to README to this effect.
+
 # Our browser(s)
 # ----------------------------------------------------------------------
-#brew cask install google-chrome
+# brew cask install google-chrome
 # brew cask install google-chrome-canary
 
-#brew cask install firefox
+# brew cask install firefox
 # brew cask install firefox-nightly
 # ----------------------------------------------------------------------
 
 # Out text editor
 # ----------------------------------------------------------------------
-# The Text Editor, Sublime Text 2
+# The Text Editor, Sublime Text 3
 # (phlco) sublime text 3 is still in beta, therefore we'll stick to stable.
 # (phlco) atom won't support files over 2mb therefore we'll hold off.
-# brew cask install sublime-text
-# PJ: fuck it, v3
-brew cask install sublime-text3
+
+brew cask install sublime-text
 # ----------------------------------------------------------------------
 
 # Our productivity suite
