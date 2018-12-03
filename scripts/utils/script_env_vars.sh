@@ -32,7 +32,7 @@ fi
 SCRIPT_ROOT="$HOME/.wdi"
 
 # TODO (PJ) this needs to be more robust, BY FAR!
-SCRIPT_REPO="https://github.com/GA-WDI/installfest_script.git"
+SCRIPT_REPO="https://github.com/madma/installfest.git"
 SCRIPT_REPO_BRANCH="master"
 
 # the downloaded repo
