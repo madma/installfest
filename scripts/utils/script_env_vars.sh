@@ -9,13 +9,13 @@
 
 # FIXME (PJ) should have a better place to decide these versions:
 #   Ruby (rbenv), Python (pyenv), Node (nvm)
-BELOVED_RUBY_VERSION="2.2.3"
-CURRENT_STABLE_RUBY_VERSION="2.2.3"
+BELOVED_RUBY_VERSION="2.5.3"
+CURRENT_STABLE_RUBY_VERSION="2.5.3"
 
 # TODO (pj) decide what the python versions should really be...
 #   and maybe come up with a bigger, better place to hang this info
-BELOVED_PYTHON_VERSION="anaconda-2.0.1"
-CURRENT_STABLE_PYTHON_VERSION="3.4.1"
+BELOVED_PYTHON_VERSION="2.7.15"
+CURRENT_STABLE_PYTHON_VERSION="3.7.1"
 
 # NOT BEING USED YET, BUT SHOULD!
 NODE_VERSION="stable" # using nvm's language...
