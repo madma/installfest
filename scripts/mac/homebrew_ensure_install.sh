@@ -57,7 +57,7 @@ else
   echo "Homebrew 'brew' command available."
 fi
 
-check_owners_in /usr/local
+# check_owners_in /usr/local
 if [ -d /usr/local/bin ]; then
   check_owners_in /usr/local/bin
 fi

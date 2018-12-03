@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COMPILED_AT='Mon Dec 03 11:04:41 PST 2018'
+COMPILED_AT='Mon Dec 03 13:20:53 PST 2018'
 #
 #  _           _        _ _  __           _
 # (_)_ __  ___| |_ __ _| | |/ _| ___  ___| |_
@@ -606,7 +606,7 @@ else
   echo "Homebrew 'brew' command available."
 fi
 
-check_owners_in /usr/local
+# check_owners_in /usr/local
 if [ -d /usr/local/bin ]; then
   check_owners_in /usr/local/bin
 fi
